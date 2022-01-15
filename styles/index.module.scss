@@ -1,0 +1,36 @@
+@import "./colours";
+@import "./responsive"
+
+// Just some example CSS, feel free to delete
+
+.container {
+	height: 100vh;
+	width: 100vw;
+
+	padding: 0;
+    margin: 0;
+    
+	.topSection {
+        padding: 0;
+        margin: 0;
+        
+        height: 15vh;
+        
+        justify-content: center;
+        align-items: center;
+        
+        background-color: $firstColour;
+        display: flex;
+        
+        .title {
+            padding: 0;
+            margin: 0;
+            
+            font-size: 2.5rem;
+        }
+	}
+    
+    .mainSection {
+        background-color: $secondColour;
+    }
+}
